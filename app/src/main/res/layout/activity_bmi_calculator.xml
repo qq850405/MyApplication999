@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText"
+            android:id="@+id/ed_weight"
             android:hint="請輸入體重（單位：ｋｇ）" />
 
         <TextView
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/ed_height"
             android:hint="請輸入身高（單位：ｍ）" />
     </LinearLayout>
 
@@ -63,6 +63,7 @@
         android:layout_marginBottom="114dp"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="bmi" />
 
 </RelativeLayout>
